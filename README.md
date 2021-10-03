@@ -30,4 +30,4 @@ WantedBy=multi-user.target
 ```
 sudo systemctl enable iot_gateway.service
 sudo systemctl start iot_gateway.service
-``
+```
