@@ -23,7 +23,7 @@ ExecStart=/usr/bin/python3 /home/pi/iot/iotgw.py
 User=pi
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=multi-user.target network-online.target
 ```
 
 3. Run script
